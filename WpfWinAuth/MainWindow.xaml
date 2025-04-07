@@ -16,10 +16,10 @@
       <RowDefinition Height="*"/>
     </Grid.RowDefinitions>
 
-    <WrapPanel Grid.Row="0" Margin="16">
-      <Button Content="確認" Width="72" Height="24" Click="Button_Click" />
+    <WrapPanel Grid.Row="0" Margin="8,0,8,8" Background="LightGreen">
+      <Button Content="確認" Padding="8,4" Margin="8" Click="Button_Click" />
     </WrapPanel>
-    <ScrollViewer Grid.Row="1" Margin="16" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" CanContentScroll="True">
+    <ScrollViewer Grid.Row="1" Margin="8,0,8,8" Padding="8" Background="LightGray" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" CanContentScroll="True">
       <TextBlock x:Name="messageBox" TextWrapping="Wrap" />
     </ScrollViewer>
   </Grid>
